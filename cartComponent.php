@@ -1,7 +1,7 @@
 <div id="form_wish" class="row mt-5 beverages">
     <div class="col-md-6 m-auto">
         <?php
-        include "../php/controller.php";
+        include "db.php";
         if (isset($_SESSION['Product'])){
             $total_rows = 1;
             $totalamnt  = 0;
